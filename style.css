@@ -1,0 +1,77 @@
+body{
+    background-color: bisque;
+    align-items: center;
+
+}
+
+.top{
+
+    margin: auto;
+    padding: 35px 0;
+    padding-right: 50px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.top ul li{
+    list-style: none;
+    display: inline-block;
+    margin:  20px;
+}
+
+.top ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+.container{
+
+    margin: auto;
+    width: 370px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.7); 
+    
+}
+
+input[type='text'],
+input[type='password'] {
+
+    width: 325px;
+    padding: 17px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+}
+
+input[type='text']:focus,
+input[type='password']:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.register{
+    background-color: bisque;
+    color: black;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 325px;
+    margin: auto;
+    opacity: 0.8;
+}
+ 
+.register:hover{
+    opacity: 1;
+}
+
